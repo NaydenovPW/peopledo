@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">peopledo</string>
+    <string name="message_text_input_hint">Enter your message</string>
+</resources>

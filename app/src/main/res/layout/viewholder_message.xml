@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/backgtoind_white_rounded"
+    android:padding="28dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/message_text"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Message"/>
+
+</FrameLayout>
