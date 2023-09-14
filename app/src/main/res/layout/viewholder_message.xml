@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
+<androidx.appcompat.widget.LinearLayoutCompat
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:tools="http://schemas.android.com/tools"
     android:background="@drawable/backgtoind_white_rounded"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
     android:padding="28dp">
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/message_text"
-        android:textSize="20sp"
-        android:textColor="@color/black"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="Message"/>
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:text="Message" />
 
-</FrameLayout>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/message_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_plus" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
